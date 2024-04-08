@@ -29,6 +29,6 @@ TODO: CountryCode Picker
   s.ios.deployment_target = '8.0'
   s.module_name  = 'CountryPicker'
   s.source_files = 'CountryPicker/Classes/*.{swift}'
-  s.resources = 'CountryPicker/**/*.{xib,bundle,xcassets}'
+  s.resources = 'CountryPicker/**/*.{xib,bundle,xcassets,xcprivacy}'
 
 end

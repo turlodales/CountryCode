@@ -11,6 +11,7 @@
 		348DB8EBC797D71D9A38F9DCCA7E2B93 /* CountryPickerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6AF6CAC2E548BE4C19F795AACF1361 /* CountryPickerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34E5B006BEAFFAB756FF852B863E074B /* Flags.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22938451FDC3C7BE7989A6ECEBE77DDF /* Flags.xcassets */; };
 		4DED4D4077547D99C2F68A24C38C001E /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C4A7EA7FE085437276A6B6D48B33D2 /* CountryView.swift */; };
+		8BF90ABF2BC4208B001C268A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8BF90ABE2BC4208B001C268A /* PrivacyInfo.xcprivacy */; };
 		8E4616FA58347F2651D1189DEC750973 /* CountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49585DF8DF283642AB30A7273094FF49 /* CountryPicker.bundle */; };
 		95AFB10AD62E6BA384CC0E689DC4EBF4 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9649EA9B091877EBD624C7300D955 /* CountryPicker.swift */; };
 		B35D0079D8AD7710088BEDA8CF8E7EC8 /* CountryPickerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE957D4A4B17B69419AD74FC42D4834 /* CountryPickerSwift-dummy.m */; };
@@ -48,6 +49,7 @@
 		73A2E6B3E67D8B0ACB08A0D79A01C378 /* CountryPickerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerSwift-prefix.pch"; sourceTree = "<group>"; };
 		7900CE67D5CC05DF754640B67560D0E0 /* Pods-CountryPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		848759F9A1D4B22CA7B14011E622128C /* Pods-CountryPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8BF90ABE2BC4208B001C268A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = CountryPicker/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		9371CF154C1ED5EC1127022751C2E18D /* Pods_CountryPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountryPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5E4DD0095C79F7C16C0B530C1E4392 /* CountryPickerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerSwift.debug.xcconfig; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		E7DF4966E6509AC03B565FC74B939D1D /* CountryPickerSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8BF90ABE2BC4208B001C268A /* PrivacyInfo.xcprivacy */,
 				19B9649EA9B091877EBD624C7300D955 /* CountryPicker.swift */,
 				68C4A7EA7FE085437276A6B6D48B33D2 /* CountryView.swift */,
 				1461DD4BCDE12919B1A986C1504FCC44 /* CountryViewTheme.swift */,
@@ -305,6 +308,7 @@
 			files = (
 				8E4616FA58347F2651D1189DEC750973 /* CountryPicker.bundle in Resources */,
 				F4D35C59DB4FCE7D0594A7DA17BB76A2 /* CountryView.xib in Resources */,
+				8BF90ABF2BC4208B001C268A /* PrivacyInfo.xcprivacy in Resources */,
 				34E5B006BEAFFAB756FF852B863E074B /* Flags.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
